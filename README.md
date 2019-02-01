@@ -1,3 +1,2 @@
-# i am imba and im on the road to become a great Devops engineer
-# Bash-Script
-Making Config files in bash-script for Certain operations
+VimCrypt~01!jĞ^¡b‰NÓ¡ åk<5ä –äxÆ»«u=¿ÅÁÛ/0G	8¦S
+ñmx…ÄKÔ"Ï­VtAÎ9ªorJ\4vŒûŠàf-s‰¹Ùğ£<2èØ„7é¿uQÿ/R5VMV½øaùŠ>UN9ø0ãw`¡5$Ù®SğD$ËÁ.©0pl4Î#ïı¥ı‡
