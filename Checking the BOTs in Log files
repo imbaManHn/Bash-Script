@@ -1,6 +1,7 @@
-#Considering if we have the Log file as 'log-file-sample.txt' (in list of the files you can find it) we can check with the below script to find them
+# Considering if we have the Log file as [a link](https://github.com/imbaManHn/Bash-Script/blob/master/log-file-sample.txt)
+# we can check with the below script to find them
 #!/bin/bash
-#Also Note this script will echo the result on the command Line which can be changed to your liking
+# Also Note this script will echo the result on the command Line which can be changed to your liking
 count=0
 
 previousUniqueTime='00:00:00'
