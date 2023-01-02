@@ -7,14 +7,15 @@ set heading off;
 set feedback off;
 set echo off;
 set wrap off;
-spool /home/oracle/MY-DIRECTORY/expd-users.txt
+spool /home/oracle/MY-DIRECTORY/expd-users.txt  ## getting the results in a text file (note that the extention of file does not matter)
 select
-t.e_mail
-from authority.userinfo t # or what ever the Table Name is in your DB
+t.e_mail    # we need the user's Emails only to send them the notice
+from authority.userinfo t   # or what ever the Table Name is in your DB
 where t.deleteflag = 0 # if you have the flagging system in your DB Like we did
 and t.locked = 0
 and t.expired = 0
-and to_char(t.staffenddate, 'yyyyMMdd')=to_char(sysdate +3,'yyyyMMdd');
+and to_char(t.staffenddate, 'yyyyMMdd')=to_char(sysdate +3,'yyyyMMdd');   # you should Note the period of time. this means based on 'staffenddate' attribute ...
+# we consider today's date and query which users will be exired 3 days from now. so the result will be Emails of those users which expire in 3 days.
 spool off;
 exit
 EOF
