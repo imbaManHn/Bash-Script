@@ -1,4 +1,4 @@
-Bash-script for Certain operations will be added into this branch.
+Bash-script for Certain operations will be added into this Repo.
 I will add my own automations over the years as much as i can remember :) and i hope this helps anyone who needs such simple scripts.
 
 * Please check the comments in the scripts or the detailed info on top of each script.
